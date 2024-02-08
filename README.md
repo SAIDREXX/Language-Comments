@@ -1,4 +1,4 @@
-# 🚀 VS Code Extension: Language Comments
+# 📝 Language Comments
 
 Welcome to Language Comments! 🌟 This smart extension for Visual Studio Code makes it easy to write comments in the right language.
 
@@ -6,11 +6,14 @@ Welcome to Language Comments! 🌟 This smart extension for Visual Studio Code m
 
 ✨ **Automatic Language Detection**: Automatically detect the language of the file you are editing.
 
-📝 **Smart Comments**: When you type `//`, the extension automatically replaces that with the comment syntax of the corresponding language.
+💡 **Smart Comments**: When you type `//`, the extension automatically replaces that with the comment syntax of the corresponding language.
 
-## Setting
+## Settings
+
+This extension can be configured in User Settings or Workspace settings.
 
 `"languageComments.useMultilineComments": true`
+
 Allows the user to decide if comments should be multiline if the language supports them.
 
 ## Use
