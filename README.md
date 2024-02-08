@@ -1,30 +1,45 @@
-# 🚀 Extensión de VS Code: AutoComentarios
+# 🚀 VS Code Extension: Language Comments
 
-¡Bienvenido a AutoComentarios! 🌟 Esta extensión inteligente para Visual Studio Code facilita la escritura de comentarios en el lenguaje correcto.
+Welcome to Language Comments! 🌟 This smart extension for Visual Studio Code makes it easy to write comments in the right language.
 
-## Características
+## Characteristics
 
-✨ **Detección Automática de Lenguaje**: Detecta automáticamente el lenguaje del archivo que estás editando.
+✨ **Automatic Language Detection**: Automatically detect the language of the file you are editing.
 
-📝 **Comentarios Inteligentes**: Al escribir `//`, la extensión reemplaza automáticamente eso por la sintaxis de comentario del lenguaje correspondiente.
+📝 **Smart Comments**: When you type `//`, the extension automatically replaces that with the comment syntax of the corresponding language.
 
-## Instalación
+## Setting
 
-1. Abre Visual Studio Code.
-2. Ve a la pestaña de extensiones (Ctrl+Shift+X).
-3. Busca "AutoComentarios".
-4. Haz clic en "Instalar".
+`"languageComments.useMultilineComments": true`
+Allows the user to decide if comments should be multiline if the language supports them.
 
-## Uso
+## Use
 
-Simplemente comienza a escribir tus comentarios con `//` y observa cómo se ajustan automáticamente al lenguaje que estás utilizando.
+Simply start typing your comments with `//` and watch how they automatically adjust to the language you're using.
 
-Ejemplo:
+Example:
 
 ```python
-# Antes
-// Esto es un comentario en Python
+# Before
+// This is a comment in Python
 
-# Después
-# Esto es un comentario en Python
+# After
+# This is a comment in Python
 ```
+## Supported Languages
+- Astro
+- Batch
+- C
+- C++
+- C#
+- CSS
+- Dart
+- HTML
+- Java
+- JavaScript
+- Kotlin
+- Lua
+- MarkDown
+- Python
+- TypeScript
+  
